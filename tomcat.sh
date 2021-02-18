@@ -24,7 +24,7 @@ sudo chown -R tomcat:tomcat /usr/share/apache-tomcat-$VER/
 
 #Archivo .service para ejecutar los comandos de Tomcat (start, stop, etc)
 #Hay que cambiar la ip sudo vim /etc/systemd/system/tomcat.service
-sudo cp /tmp/migation/tomcat.service /etc/systemd/system/tomcat.service
+sudo cp /tmp/migration/tomcat.service /etc/systemd/system/tomcat.service
 #agregamos el archivo con los usuarios
 sudo cp /tmp/migration/tomcat-users.xml /usr/share/tomcat/conf/tomcat-users.xml
 #agregamos el certificado ssl
